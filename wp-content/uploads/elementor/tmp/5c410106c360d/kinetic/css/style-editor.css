@@ -1,0 +1,195 @@
+.wp-block{
+    max-width: 910px;
+}
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+ a,.wp-block-freeform.block-library-rich-text__tinymce a{
+  color: #333333;
+  text-decoration: none;
+ }
+ a:hover, a:focus{
+  color: #6633cc;
+ }
+body {
+    
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+p, .editor-styles-wrapperx {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 0 10px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+h2 , .editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h2{
+    color: #333333;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 30px;
+}
+.wp-block-freeform.block-library-rich-text__tinymce h2{
+     font-size: 30px;
+}
+h3, .h3, .wp-block-freeform.block-library-rich-text__tinymce h3 {
+    font-size: 24px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h5, .h5 {
+    font-size: 14px;
+}
+h6, .h6 {
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+blockquote, .editor-styles-wrapper blockquote, .wp-block-freeform.block-library-rich-text__tinymce blockquote {
+    padding: 30px 40px;
+    padding-left: 100px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    padding-left: 100px;
+    position: relative;
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+
+}
+blockquote p, .editor-styles-wrapper blockquote p, .wp-block-freeform.block-library-rich-text__tinymce blockquote p{
+    margin-bottom: 0px;
+}
+h1, .editor-post-title__block .editor-post-title__input, .editor-styles-wrapper h1{
+
+    color: #333333;
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px;
+    margin-bottom: 20px;
+
+}
+.wp-block-freeform.block-library-rich-text__tinymce h1{
+    font-size: 36px;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large){
+	border-left: 1px solid #ebebeb;
+	padding: 30px 40px;
+    padding-left: 100px;
+}
+.wp-block-pullquote{
+	padding: 0px;
+	border: none;
+}
+blockquote::before {
+    content: '\f2ce';
+    color: #6633cc;
+    font-size: 34px;
+    display: inline-block;
+    font-family: 'LineAwesome';
+    position: absolute;
+    font-style: normal;
+    top: 50%;
+    left: 40px;
+    margin-top: -17px;
+    line-height: 1.1;
+}
+.wp-block-freeform.block-library-rich-text__tinymce code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+img {
+
+    max-width: 100%;
+    height: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+.wp-block-image img{
+  margin-bottom: 0px;
+}
+table,.mce-item-table {
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+     border-collapse: collapse;
+}
+dd{
+    margin-left: 30px;
+}
+dt{
+    font-weight: 700;
+}
+address {
+
+    margin-bottom: 20px;
+    font-style: italic;
+    line-height: 1.42857143;
+
+}
+kbd {
+
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+
+}
+pre {
+
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+table th, table td {
+    padding: 5px;
+    border: 1px solid #dedede;
+    text-align: center;
+}

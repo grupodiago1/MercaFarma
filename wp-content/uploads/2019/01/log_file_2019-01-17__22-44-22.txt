@@ -1,0 +1,39 @@
+
+---Downloaded files---
+The import files for: Default were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://www.mercafarma.com.gt
+Data file = /home4/mercafar/public_html/wp-content/uploads/2019/01/demo-content-import-file_2019-01-17__22-44-22.xml
+Widget file = /home4/mercafar/public_html/wp-content/uploads/2019/01/demo-widgets-import-file_2019-01-17__22-44-22.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog sidebar : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Imported
+Comentarios recientes - No Title - Imported
+Archivos - No Title - Imported
+Categorías - No Title - Imported
+Meta - No Title - Imported
+
+Footer 1 : 
+
+HTML personalizado - No Title - Imported
+
+Footer 2 : 
+
+HTML personalizado - No Title - Imported
+
+Footer 3 : 
+
+HTML personalizado - No Title - Imported
+
+

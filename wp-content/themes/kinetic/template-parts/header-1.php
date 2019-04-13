@@ -1,9 +1,9 @@
 
-<?php 
+<?php
 	$slider = get_post_meta($wp_query->get_queried_object_id(), "_kinetic_page_banner", true);
 ?>
 <?php if($slider!=''){ ?>
-	<!-- home-section 
+	<!-- home-section
 		================================================== -->
 	<section id="home-section" class="slider1">
 		<?php echo do_shortcode($slider); ?>
@@ -24,7 +24,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<?php $custom_logo = get_post_meta($wp_query->get_queried_object_id(), '_kinetic_custom_logo', true) ?>
-				<?php 
+				<?php
 					$custom_logo_id = get_theme_mod( 'custom_logo' );
 				?>
 				<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>">
@@ -38,19 +38,19 @@
 	                  <?php bloginfo('name'); ?>
 	                <?php } ?>
 				</a>
-			
+
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<?php 
+				<?php
 					$btn_link = get_theme_mod('btn_link');
 					$btn_text = get_theme_mod('btn_text');
 				?>
 				<?php if($btn_link!=''){ ?>
 					<a class="button-two target-link" href="<?php echo esc_url($btn_link); ?>"><?php echo esc_html($btn_text); ?></a>
 				<?php } ?>
-				<?php 
+				<?php
 					$onepage = get_post_meta($wp_query->get_queried_object_id(), "_kinetic_onepage", true);
 					if($onepage=='on'){
 						$menu_location = 'onepage';
@@ -78,7 +78,7 @@
 					if ( has_nav_menu( $menu_location ) ) {
 						wp_nav_menu( $defaults2 );
 					}
-				
+
 				?>
 
 			</div><!-- /.navbar-collapse -->
@@ -86,4 +86,3 @@
 	</nav>
 </header>
 <!-- End Header -->
-

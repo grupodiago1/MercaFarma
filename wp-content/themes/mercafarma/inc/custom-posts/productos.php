@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Register Custom Post Type Productos
 function create_productos_cpt() {
@@ -37,7 +37,7 @@ function create_productos_cpt() {
 		'description' => __( '', 'textdomain' ),
 		'labels' => $labels,
 		'menu_icon' => 'dashicons-products',
-		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'revisions'),
+		'supports' => array('title', 'thumbnail', 'revisions'),
 		'taxonomies' => array(),
 		'public' => true,
 		'show_ui' => true,

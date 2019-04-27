@@ -1,8 +1,8 @@
 (function($){
 	"use strict";
-	
+
 	$(document).ready(function($) {
-		
+
 
 		var winDow = $(window);
 		// Needed variables
@@ -29,7 +29,7 @@
 			var selector = $filter.find('a.active').attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -41,13 +41,13 @@
 			}
 			return false;
 		});
-		
-		// Isotope Filter 
+
+		// Isotope Filter
 		$filter.find('a').on('click', function(){
 			var selector = $(this).attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -135,7 +135,7 @@
 
 	}
 
-	
+
 
 	/*-------------------------------------------------*/
 	/* =  tabs sections
@@ -177,7 +177,7 @@
 				$('#menu-one-page.navigate-section > li > a[href*=#'+containerID+']').addClass('active');
 			}
 		} , { offset: '74px' } );
-		
+
 		$(this).waypoint( function( direction ) {
 			if( direction === 'up' ) {
 				var containerID = $(this).attr('id');
@@ -201,7 +201,7 @@
 				$('.navigate-section > li > a[href*=#'+containerID+']').addClass('active');
 			}
 		} , { offset: '70px' } );
-		
+
 		$(this).waypoint( function( direction ) {
 			if( direction === 'up' ) {
 				var containerID = $(this).attr('id');
@@ -230,7 +230,7 @@
 				}
 			}, false );
 		}
-		
+
 		function scrollPage() {
 			var sy = scrollY();
 			if ( sy >= changeHeaderOn ) {
@@ -243,13 +243,13 @@
 			}
 			didScroll = false;
 		}
-		
+
 		function scrollY() {
 			return window.pageYOffset || docElem.scrollTop;
 		}
-		
+
 		init();
-		
+
 	})();
 	if($('.navbar').offset().top > 50) {
 	    $('header').addClass('active');

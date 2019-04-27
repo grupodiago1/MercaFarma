@@ -127,7 +127,9 @@ if ( ! function_exists( 'kinetic_elementor_widgets_registered' ) ) :
 		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/blog-mas.php';
 		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/gallery-carousel.php';
 		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/gallery-productos.php';
+		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/menu-catalogo.php';
 		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/testimonial.php';
+		require KINETIC_ELEMENTOR_WIDGETS_DIR . '/formulario-reclutamiento.php';
 
 
 
@@ -139,8 +141,9 @@ if ( ! function_exists( 'kinetic_elementor_widgets_registered' ) ) :
 		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Blog_Masonry() );
 		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Gallery_Carousel() );
 		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Gallery_Productos() );
+		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Menu_Catalogo() );
 		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Testimonials() );
-
+		$widgets_manager->register_widget_type( new \Elementor\Kinetic_Elementor_Global_Widgets_Formulario_Reclutamiento() );
 
 	}
 

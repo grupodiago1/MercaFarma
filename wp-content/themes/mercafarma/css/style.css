@@ -3864,3 +3864,37 @@ section.blog-page-section .blog-page-box {
     height: 5px;
     border-radius: 0px;
 }
+
+/* ULTIMOS HACKS */
+
+@media (max-width: 768px) {
+	.cont-catalogo-detalle .titulo{
+		font-size:25px;
+	}
+	
+	.cont-catalogo-detalle .subtitulo{
+		font-size:18px;
+	}
+	
+	.navegacion-catalogo .item{
+		width:100%;
+		height:200px;
+	}
+}
+
+.product-box .info-box .text p{
+	margin-bottom: 15px;
+}
+
+.cont-catalogo .product-box .text p {
+    margin-bottom: 50px;
+}
+
+.btn-menu-catalogo:active, .btn-menu-catalogo:focus{
+	color:#fff;
+	background-color:transparent;
+}
+
+.owl-theme .owl-controls .owl-buttons div.owl-next{
+	margin-right:0;
+}

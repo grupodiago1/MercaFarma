@@ -345,7 +345,7 @@ a.button-one {
 }
 a.button-one:hover {
   color: #fff;
-  background-color: #00aeff;
+  background-color: rgb(169, 55, 58);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -811,7 +811,7 @@ section#features-section2 ul.client-list li {
 }
 section#features-section2 .about-box .about-post {
   margin-bottom: 60px;
-  display: flex;
+  display: block;
 }
 section#features-section2 .about-box .about-post a {
   display: inline-block;
@@ -1999,7 +1999,7 @@ section#contact-section #contact-form input[type="submit"] {
   -o-transition: all 0.2s ease-in-out;
 }
 section#contact-section #contact-form input[type="submit"]:hover {
-  background: #00aeff;
+  background: rgb(169, 55, 58);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -2715,7 +2715,7 @@ section.blog-page-section .news-box.single-post ul.share-post li a:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 #comment-form input[type="submit"]:hover {
-  background: #00aeff;
+  background: rgb(169, 55, 58);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);

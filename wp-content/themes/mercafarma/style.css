@@ -448,7 +448,7 @@ input[type="submit"] {
 
     font-weight: 600;
     background: transparent;
-    background: #00b9ff;
+    background: rgb(169, 55, 58);
     border: none;
     outline: none;
     padding: 12px 40px;
@@ -462,7 +462,7 @@ input[type="submit"] {
     -o-transition: all 0.2s ease-in-out;
 }
 input[type="submit"]:hover {
-        background: #00aeff;
+        background: rgb(169, 55, 58);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);

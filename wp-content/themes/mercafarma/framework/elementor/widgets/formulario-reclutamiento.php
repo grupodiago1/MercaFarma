@@ -72,7 +72,7 @@ class Kinetic_Elementor_Global_Widgets_Formulario_Reclutamiento extends Widget_B
 
 		// Widget title section
 		$this->start_controls_section(
-			'section_arc_featured_posts_block_1_title_manage',
+			'section_arc_formulario_reclutamiento_block_1_title_manage',
 			array(
 				'label' => esc_html__( 'Gallery Productos', 'kinetic' ),
 			)
@@ -98,18 +98,22 @@ class Kinetic_Elementor_Global_Widgets_Formulario_Reclutamiento extends Widget_B
 	*
 	* @access protected
 	*/
-	protected function render() {?>
+	protected function render() {
+
+		$settings = $this->get_settings_for_display();
+
+		?>
 
 		<footer class="white-style">
 			<div class="container">
 				<div class="title-section">
 					<h1>Únete a nuestro equipo</h1>
 				</div>
-				<form class="subscribe-form">
+				<form class="subscribe-form" id="formulario-reclutamiento">
 					<input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"/><br/>
 					<input type="text" name="correo" id="correo" placeholder="Correo Electrónico"/><br/>
 					<input type="text" name="celular" id="celular" placeholder="Teléfono Celular"/><br/>
-					<input type="submit" id="submit-subscribe-form" value="Enviar"/>
+					<input type="submit" id="click-reclutamiento-form" value="Enviar" data-email="<?php echo $settings['email-recepcion'];?>"/>
 				</form>
 			</div>
 		</footer>

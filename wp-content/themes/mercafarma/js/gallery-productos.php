@@ -72,7 +72,7 @@ class Kinetic_Elementor_Global_Widgets_Gallery_Productos extends Widget_Base {
 
 		// Widget title section
 		$this->start_controls_section(
-			'section_arc_featured_products_block_1_title_manage',
+			'section_arc_featured_posts_block_1_title_manage',
 			array(
 				'label' => esc_html__( 'Gallery Productos', 'kinetic' ),
 			)

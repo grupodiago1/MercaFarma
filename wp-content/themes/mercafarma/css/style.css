@@ -3414,7 +3414,7 @@ section.blog-page-section .news-box.single-post .news-post div.comments-box ul.c
 
 section.error-404-section {
   padding: 260px 0;
-  background: url('../images/ban7.jpg') center center fixed;
+  background: url('../images/404.jpg') center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3704,6 +3704,7 @@ section.blog-page-section .blog-page-box {
 .cont-menu-catalogo{
   padding-top:30px;
   padding-bottom:140px;
+  position:relative;
 }
 
 .cont-menu-catalogo .cont-items{
@@ -3841,4 +3842,24 @@ section.blog-page-section .blog-page-box {
   background-size: contain;
   display: block;
   border:1px solid #000;
+}
+
+/* NAV */
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle{
+  border-color:transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 5px;
+    border-radius: 0px;
 }

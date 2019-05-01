@@ -15,7 +15,7 @@
           celular : $("#celular").val(),
         },
         beforeSend: function() {
-          //$(boton).attr("disabled", true);
+          $(boton).attr("disabled", true);
           $(boton).attr('value','Enviando...');
         },
         success : function( response ) {

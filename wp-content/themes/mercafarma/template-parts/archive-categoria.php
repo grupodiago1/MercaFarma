@@ -85,8 +85,8 @@ if(have_posts()) :
       <div class="decoration "></div>
       <div class="container">
     <div class="blog-post not-found">
-      <h2 class="heading1">Categoría sin produco</h2>
-      <p>Es probable que la direccion que esta visitando esta incompleta o tiene un error.<br>
+      <h2 class="heading1">Categoría sin producto</h2>
+      <p>Es probable que la dirección que esta visitando este incompleta o tiene un error.<br>
       Regrese a la portada haciendo click <a href="/">aquí</a></p>
     </div>
   </div>

@@ -114,6 +114,7 @@ class Kinetic_Elementor_Global_Widgets_Menu_Catalogo extends Widget_Base {
 					</ul>
 				</div>
 			</div>
+			<img width="50" style="position:absolute;bottom:0;right:0;" src="<?php echo  get_stylesheet_directory_uri().'/images/isotipo.png'?>"/>
 		</div>
 
 		<?php

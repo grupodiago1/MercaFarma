@@ -15,7 +15,11 @@ function envia_correo() {
 
   $message="Nombre: ".$nombre." | Correo: ".$correo." | Celular: ".$celular;
 
-  $headers[] = 'From: MercaFarma <info@mercafarma.com.gt>';
+
+  $headers = array(
+    'Content-Type: text/html; charset=UTF-8',
+    'From: MercaFarma <info@mercafarma.com.gt>'.'\r\n',
+  );
   if(wp_mail( $para, $subject, $message, $headers )){
     echo 'Formulario enviado exitosamente.';
   }else{

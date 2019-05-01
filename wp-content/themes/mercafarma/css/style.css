@@ -3730,8 +3730,9 @@ section.blog-page-section .blog-page-box {
 }
 
 .btn-menu-catalogo:hover{
-  color:#ffffff8f;
-  border-color:#ffffff8f;
+  color:#CD3D40;
+  border-color:#fff;
+  background-color:#fff;
 }
 
 

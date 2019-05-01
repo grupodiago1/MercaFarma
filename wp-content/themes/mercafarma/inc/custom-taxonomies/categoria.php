@@ -4,17 +4,17 @@
 function create_categoria_tax() {
 
 	$labels = array(
-		'name'              => _x( 'Categoria', 'taxonomy general name', 'textdomain' ),
-		'singular_name'     => _x( 'Categoria', 'taxonomy singular name', 'textdomain' ),
-		'search_items'      => __( 'Search Categoria', 'textdomain' ),
-		'all_items'         => __( 'All Categoria', 'textdomain' ),
-		'parent_item'       => __( 'Parent Categoria', 'textdomain' ),
-		'parent_item_colon' => __( 'Parent Categoria:', 'textdomain' ),
-		'edit_item'         => __( 'Edit Categoria', 'textdomain' ),
-		'update_item'       => __( 'Update Categoria', 'textdomain' ),
-		'add_new_item'      => __( 'Add New Categoria', 'textdomain' ),
-		'new_item_name'     => __( 'New Categoria Name', 'textdomain' ),
-		'menu_name'         => __( 'Categoria', 'textdomain' ),
+		'name'              => _x( 'Categoría', 'taxonomy general name', 'textdomain' ),
+		'singular_name'     => _x( 'Categoría', 'taxonomy singular name', 'textdomain' ),
+		'search_items'      => __( 'Buscar Categoría', 'textdomain' ),
+		'all_items'         => __( 'Todas las Categoría', 'textdomain' ),
+		'parent_item'       => __( 'Categoría padre', 'textdomain' ),
+		'parent_item_colon' => __( 'Categoría padre:', 'textdomain' ),
+		'edit_item'         => __( 'Editar Categoría', 'textdomain' ),
+		'update_item'       => __( 'Actualizar Categoría', 'textdomain' ),
+		'add_new_item'      => __( 'Agregar Categoría', 'textdomain' ),
+		'new_item_name'     => __( 'Nombre de Categoría nueva', 'textdomain' ),
+		'menu_name'         => __( 'Categoría', 'textdomain' ),
 	);
 	$args = array(
 		'labels' => $labels,

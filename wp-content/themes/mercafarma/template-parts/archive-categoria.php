@@ -65,7 +65,7 @@ if(have_posts()) :
         <?php
       }else{
         if ( has_post_thumbnail() ) {
-          $thumbnail=get_the_post_thumbnail_url($ID, 'thumbnail');
+          $thumbnail=get_the_post_thumbnail_url($ID, 'medium');
         }
         $items.='<a class="item" href="'.get_the_permalink($ID).'" style="background-image:url('.$thumbnail.');" alt="'.get_the_title($ID).'"></a>';
       }

@@ -60,6 +60,13 @@ $tema = isset($c_fields['tema'])?$c_fields['tema']:'blanco';
       'post_type' => 'productos',
       'posts_per_page' => -1,
       'post__not_in' => array($ID),
+      'tax_query' => array(
+        array(
+        'taxonomy' => 'categoria',
+        'field' => 'term_id',
+        'terms' => $categoria[0]->term_id,
+         )
+      ),
     );
 
     $query = new WP_Query($args);

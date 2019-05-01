@@ -77,7 +77,7 @@ $tema = isset($c_fields['tema'])?$c_fields['tema']:'blanco';
 
         $ID2=$query->get_the_ID();
         if ( has_post_thumbnail() ) {
-          $thumbnail=get_the_post_thumbnail_url($ID2, 'full');
+          $thumbnail=get_the_post_thumbnail_url($ID2, 'medium');
         }
         echo '<a class="item" href="'.get_the_permalink($ID2).'" style="background-image:url('.$thumbnail.');" alt="'.get_the_title($ID2).'"></a>';
 

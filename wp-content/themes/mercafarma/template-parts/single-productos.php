@@ -19,17 +19,20 @@ $tema = isset($c_fields['tema'])?$c_fields['tema']:'blanco';
   <div class="decoration "></div>
   <div class="container">
 
-    <div class="row">
+    <div class="row display-flex">
       <div class="col-xs-12 cont-catalogo-detalle">
         <h1 class="titulo <?php echo $tema?>"><?php echo $categoria[0]->name?></h1>
         <h3 class="subtitulo <?php echo $tema?>"><?php echo $categoria[0]->description?></h3>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-right cont-img">
+        <div class="box">
         <?php if ( has_post_thumbnail() ) {?>
           <img class="img-fluid img-producto" width="350" src="<?php echo get_the_post_thumbnail_url($ID, 'full');?>"/>
         <?php   }?>
+        </div>
       </div>
       <div class="col-sm-6 col-md-6 col-lg-6 ">
+        <div class="box">
         <div class="product-box <?php echo $tema?>">
           <h1 class="title-box <?php echo $tema?>"><?php the_title(); ?></h1>
           <div class="text <?php echo $tema?>">
@@ -46,6 +49,7 @@ $tema = isset($c_fields['tema'])?$c_fields['tema']:'blanco';
             <div class="text <?php echo $tema?>">
               <?php echo $dosis;?>
             </div>
+          </div>
           </div>
         </div>
       </div>

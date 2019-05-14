@@ -3906,3 +3906,17 @@ section.blog-page-section .blog-page-box {
 .owl-theme .owl-controls .owl-buttons div.owl-next{
 	margin-right:0;
 }
+
+/*  FIX HEIGHT  */
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
+}
+
+.box {
+    height: 100%;
+}

@@ -3764,13 +3764,25 @@ section.blog-page-section .blog-page-box {
   background-size: cover;
 }
 
+.blog-page-section .img-producto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 @media (max-width: 768px) {
   .blog-page-section .cont-img{
     text-align: center;
   }
   .blog-page-section .img-producto{
-    width: 250px;
+    	width: 250px;
+	position:initial;
+	top:initial;
+	left:initial;
+	transform:initial;
   }
+	
 }
 
 
@@ -3918,5 +3930,6 @@ section.blog-page-section .blog-page-box {
 }
 
 .box {
-    height: 100%;
+	position:relative;
+   	height: 100%;
 }
